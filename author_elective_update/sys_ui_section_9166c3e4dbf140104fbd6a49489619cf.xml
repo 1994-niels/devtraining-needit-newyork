@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="9166c3e4dbf140104fbd6a49489619cf" sys_domain="global" table="x_58872_needit_processing_activities" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yes_no</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-15 14:46:27</sys_created_on>
+            <sys_id>f3a9c7a8dbf140104fbd6a494896192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_processing_activities" sys_domain="global" view="Default view">9166c3e4dbf140104fbd6a49489619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-15 14:46:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_58872_needit_processing_activities</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-15 14:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9166c3e4dbf140104fbd6a49489619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_processing_activities</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_9166c3e4dbf140104fbd6a49489619cf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-15 14:32:05</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>0a01e87cdb10f3c03050ac44d49619c5</instance_id>
+        <instance_name>dev75557</instance_name>
+        <name>sys_ui_section_9166c3e4dbf140104fbd6a49489619cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="9166c3e4dbf140104fbd6a49489619cf" sys_domain="global" table="x_58872_needit_processing_activities" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>yes_no</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-15 14:46:27</sys_created_on><sys_id>f3a9c7a8dbf140104fbd6a494896192d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_58872_needit_processing_activities" sys_domain="global" view="Default view">9166c3e4dbf140104fbd6a49489619cf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-15 14:46:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_58872_needit_processing_activities</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-15 14:32:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9166c3e4dbf140104fbd6a49489619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_processing_activities</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_section_9166c3e4dbf140104fbd6a49489619cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-15 14:32:05</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-792661663</payload_hash>
+        <record_name>Processing activities</record_name>
+        <reverted_from/>
+        <source>0834f622dbd900104fbd6a49489619a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-15 14:46:27</sys_created_on>
+        <sys_id>fba9c7a8dbf140104fbd6a494896192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f0a0661480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-15 14:46:27</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>77a9c7a847f140102c2940b194ca0e2e</update_guid>
+        <update_guid_history>77a9c7a847f140102c2940b194ca0e2e:-792661663,956647e416f140109a8e4990da5e86aa:770844345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-15 14:53:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>454f1e9f4354405d94ddb93c048e5a11</sys_id>
+        <sys_metadata>9166c3e4dbf140104fbd6a49489619cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_processing_activities</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">e6e50becdbb140104fbd6a4948961956</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9166c3e4dbf140104fbd6a49489619cf</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9166c3e4dbf140104fbd6a49489619cf">fba9c7a8dbf140104fbd6a494896192e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-15 14:53:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

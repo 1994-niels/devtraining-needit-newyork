@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="alm_asset" label="Company IT assets" max_length="40" name="x_58872_needit_company_it_assets" type="collection"/>
+</database>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="DPIA required" max_length="40" name="dpia_required" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element default="41" label="New field 1" max_length="40" name="new_field_1" reference="core_company" type="integer"/>
+        <element default="50" label="New field 2" mandatory="true" max_length="40" name="new_field_2" type="integer"/>
+        <element default="50" label="new field 3" max_length="40" name="new_field_3" reference="core_company" type="integer"/>
+        <element choice="3" default="50" label="New field 5" mandatory="true" max_length="500" name="new_field_5" type="html">
+            <choice>
+                <element inactive_on_update="false" label="50" value="50"/>
+            </choice>
+        </element>
+        <element display="true" label="new field 6" max_length="500" name="new_field_6" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Processing activity description" max_length="40" name="processing_activity_description" type="string"/>
+        <element choice="1" label="special categories involved" max_length="40" name="special_categories_involved" type="integer">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are special categories of PI involved with the process?" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="no" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="u_department" type="string">
+            <choice>
+                <element inactive_on_update="false" label="IT" sequence="0" value="it"/>
+                <element inactive_on_update="false" label="HR" sequence="1" value="hr"/>
+                <element inactive_on_update="false" label="Business" sequence="2" value="business"/>
+                <element inactive_on_update="false" label="Legal" sequence="3" value="legal"/>
+            </choice>
+        </element>
+        <element label="New field 7" max_length="40" name="u_integer_1" type="integer"/>
+        <element choice="1" default="yes" label="process already started?" max_length="40" name="u_integer_2" type="integer">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="processing activity" max_length="32" name="u_reference_1" reference="x_58872_needit_processing_activities" type="reference"/>
+        <element attributes="encode_utf8=false" default="46d44a23a9fe19810012d100cca80666" label="created by" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" dependent="dpia_required" dependent_on_field="dpia_required" label="Why is it required?" max_length="40" name="why_is_it_required" type="string" use_dependent_field="true"/>
+    </element>
+</database>

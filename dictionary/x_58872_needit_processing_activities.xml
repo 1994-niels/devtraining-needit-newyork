@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="processing activities" max_length="40" name="x_58872_needit_processing_activities" sizeclass="2" type="collection"/>
+</database>
